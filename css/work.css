@@ -1,0 +1,438 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+
+    background: #48494B;
+}
+
+.works {
+    position: absolute;
+    width: 1920px;
+    height: 980px;
+    left: 0px;
+
+    background: #48494B;
+
+}
+
+header {
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+
+    background: #B1B1B1;
+}
+
+h1 {
+    position: absolute;
+    width: 184px;
+    height: 78px;
+    left: 52px;
+    margin-top: 12px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 78px;
+
+    color: #8B0000;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px;
+}
+
+.text-upper-works {
+    position: absolute;
+    width: 290px;
+    height: 49px;
+    left: 335px;
+    top: 29px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #000000;
+}
+
+.text-upper-price {
+    position: absolute;
+    width: 139px;
+    height: 49px;
+    left: 742px;
+    top: 29px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #000000;
+}
+
+.text-upper-advantages {
+    position: absolute;
+    width: 321px;
+    height: 49px;
+    left: 996px;
+    top: 29px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #000000;
+}
+
+.text-upper-record {
+    position: absolute;
+    width: 152px;
+    height: 49px;
+    left: 1433px;
+    top: 29px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #000000;
+}
+
+.telegram {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1680px;
+    top: 28px;
+
+    background: url(free-icon-ooooooooooooooooooooooooooooooooooo-15047055.png);
+}
+
+.instagram {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1749px;
+    top: 28px;
+
+    background: url(free-icon-instagram-1384015.png);
+}
+
+.whatsapp {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1818px;
+    top: 28px;
+
+    background: url(free-icon-whatsapp-3670302.png);
+}
+
+text {
+    position: absolute;
+    width: 1920px;
+    height: 980px;
+    left: 0px;
+    top: 100px;
+
+    background: #48494B;
+}
+
+h2 {
+    position: absolute;
+    width: 435px;
+    height: 73px;
+    left: 758px;
+    top: 90px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 73px;
+
+    color: #FFFFFF;
+}
+
+p {
+    position: absolute;
+    width: 1643px;
+    height: 98px;
+    left: 138px;
+    top: 200px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.slaider .left {
+    position: absolute;
+    width: 55px;
+    height: 117px;
+    left: 480px;
+    top: 590px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 117px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+}
+
+.slaider .right {
+    position: absolute;
+    width: 55px;
+    height: 117px;
+    left: 1406px;
+    top: 590px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 117px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+}
+
+.Anna img {
+    position: absolute;
+    width: 264px;
+    height: 469px;
+    left: 828px;
+    top: 397px;
+
+    background: url(2435918026b34559ca1c6d7dd7e316be.jpg);
+}
+
+.Anna p {
+    position: absolute;
+    width: 154px;
+    height: 24px;
+    left: 1184px;
+    top: 855px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.Daria img {
+    position: absolute;
+    width: 210px;
+    height: 425px;
+    left: 1128px;
+    top: 419px;
+
+    background: url(2435918026b34559ca1c6d7dd7e316be.jpg);
+}
+
+.Daria p {
+    position: absolute;
+    width: 144px;
+    height: 24px;
+    left: 948px;
+    top: 878px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.Vlada img {
+    position: absolute;
+    width: 210px;
+    height: 425px;
+    left: 582px;
+    top: 419px;
+
+    background: url(2435918026b34559ca1c6d7dd7e316be.jpg);
+}
+
+.Vlada p {
+    position: absolute;
+    width: 157px;
+    height: 24px;
+    left: 635px;
+    top: 854px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.footer {
+    position: absolute;
+    width: 1920px;
+    height: 206px;
+    margin-top: 980px;
+    background: #B1B1B1;
+}
+
+.footer h1 {
+    position: absolute;
+    width: 173px;
+    height: 73px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 73px;
+
+    color: #8B0000;
+}
+
+.footer p {
+    position: absolute;
+    width: 550px;
+    height: 85px;
+    left: 50px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 17px;
+    margin-top: -110px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.footer iframe {
+    position: absolute;
+    width: 788px;
+    height: 116px;
+    left: 670px;
+    margin-top: 50px;
+}
+
+.footer .telegram_f {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    left: 1650px;
+
+    background: url(free-icon-ooooooooooooooooooooooooooooooooooo-15047055.png);
+}
+
+.footer .instagram_f {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 71px;
+    left: 1650px;
+
+    background: url(free-icon-instagram-1384015.png);
+}
+
+.footer .whatsapp_f {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 130px;
+    left: 1650px;
+
+    background: url(free-icon-whatsapp-3670302.png);
+}
+
+.telegram_t {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin-left: 1690px;
+    margin-top: 20px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.instagram_t {
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    margin-left: 1690px;
+    margin-top: 85px;
+
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.whatsapp_t {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin-left: 1695px;
+    margin-top: 143px;
+
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+}

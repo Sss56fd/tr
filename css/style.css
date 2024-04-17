@@ -1,0 +1,388 @@
+/* Стили для мобильных устройств */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .text {
+        padding: 10px;
+    }
+
+    .information img {
+        width: 100%;
+        height: auto;
+    }
+
+    .slaider img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+
+    .telegram_f,
+    .instagram_f,
+    .whatsapp_f {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+
+    .telegram_t,
+    .instagram_t,
+    .whatsapp_t {
+        list-style-type: none;
+    }
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+
+    background: #48494B;
+}
+
+header {
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+
+    background: #B1B1B1;
+}
+
+h1 {
+    position: absolute;
+    width: 184px;
+    height: 78px;
+    left: 52px;
+    margin-top: 12px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 78px;
+
+    color: #8B0000;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px;
+}
+
+.text-upper-works {
+    position: absolute;
+    width: 290px;
+    height: 49px;
+    left: 335px;
+    top: 29px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #000000;
+}
+
+.text-upper-price {
+    position: absolute;
+    width: 139px;
+    height: 49px;
+    left: 742px;
+    top: 29px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #000000;
+}
+
+.text-upper-advantages {
+    position: absolute;
+    width: 321px;
+    height: 49px;
+    left: 996px;
+    top: 29px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #000000;
+}
+
+.text-upper-record {
+    position: absolute;
+    width: 152px;
+    height: 49px;
+    left: 1433px;
+    top: 29px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #000000;
+}
+
+.telegram {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1680px;
+    top: 28px;
+
+    background: url(free-icon-ooooooooooooooooooooooooooooooooooo-15047055.png);
+}
+
+.instagram {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1749px;
+    top: 28px;
+
+    background: url(free-icon-instagram-1384015.png);
+}
+
+.whatsapp {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1818px;
+    top: 28px;
+
+    background: url(free-icon-whatsapp-3670302.png);
+}
+
+.information {
+    background: #48494B;
+    padding: 20px;
+}
+
+.information img {
+    position: absolute;
+    width: 777px;
+    height: 1046px;
+    left: -71px;
+    margin-top: 34px;
+    z-index: 0;
+}
+
+.text {
+    position: absolute;
+    width: 1000px;
+    height: 621px;
+    left: 575px;
+    top: 353px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: justify;
+    /* hanging-punctuation is currently only supported in Safari. */
+    hanging-punctuation: first last;
+
+    color: #FFFFFF;
+}
+
+.slaider {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.slaider .photo1 {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 1659px;
+    top: 154px;
+
+    background: url(8a564cce001c41179680d6d88b53c4f1.jpg);
+}
+
+.slaider .photo2 {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 1659px;
+    top: 460px;
+
+    background: url(3be707f18e1e0b7e10d7cfac4df3521f.jpg);
+}
+
+.slaider .photo3 {
+    /* Rectangle 38 */
+
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 1659px;
+    top: 769px;
+
+    background: url(5147af702014bcc9c39dabde6f7ca061.jpg);
+}
+
+.footer {
+    position: absolute;
+    width: 1920px;
+    height: 206px;
+
+    background: #B1B1B1;
+}
+
+.footer h1 {
+    position: absolute;
+    width: 173px;
+    height: 73px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 73px;
+
+    color: #8B0000;
+}
+
+.footer p {
+    position: absolute;
+    width: 550px;
+    height: 85px;
+    left: 50px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 17px;
+    margin-top: 90px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.footer iframe {
+    position: absolute;
+    width: 788px;
+    height: 116px;
+    left: 670px;
+    margin-top: 50px;
+}
+
+.footer .telegram_f {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    left: 1650px;
+
+    background: url(free-icon-ooooooooooooooooooooooooooooooooooo-15047055.png);
+}
+
+.footer .instagram_f {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 71px;
+    left: 1650px;
+
+    background: url(free-icon-instagram-1384015.png);
+}
+
+.footer .whatsapp_f {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 130px;
+    left: 1650px;
+
+    background: url(free-icon-whatsapp-3670302.png);
+}
+
+.telegram_t {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin-left: 1690px;
+    margin-top: 20px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.instagram_t {
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    margin-left: 1690px;
+    margin-top: 85px;
+
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.whatsapp_t {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin-left: 1695px;
+    margin-top: 143px;
+
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+}
